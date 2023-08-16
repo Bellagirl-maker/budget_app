@@ -89,7 +89,10 @@ rails server
 
 
 <!-- VIDEO PRESENTATION -->
-(<a href="https://www.loom.com/share/609f3c98ab2849d3b85f6611832ca087">Video</a>)
+<a href="https://www.loom.com/share/609f3c98ab2849d3b85f6611832ca087">VIDEO PRESENTATION</a>
+
+<!-- LIVE SITE LINK -->
+<a href="https://budget-app-r1qd.onrender.com/">LIVE SITE LINK</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
