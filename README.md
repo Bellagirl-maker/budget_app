@@ -85,6 +85,12 @@ To run the project, execute the following command:
 rails server
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- VIDEO PRESENTATION -->
+(<a href="https://www.loom.com/share/609f3c98ab2849d3b85f6611832ca087">Video</a>)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

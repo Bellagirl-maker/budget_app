@@ -14,19 +14,18 @@
  *= require_self
  */
 @import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 @import "font-awesome";
 
 body {
-    position: relative;
-  }
-  
-  * {
-    font-family: 'Proxima-Nova', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+  position: relative;
+}
+
+* {
+  font-family: 'Proxima-Nova', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 #error_explanation {
@@ -91,10 +90,9 @@ SPLASH SCREEN
   text-decoration: none;
   font-weight: bold;
   color: white;
-  background-color: #3778c2;;
+  background-color: #3778c2;
   border-radius: 0.5rem;
 }
-
 
 .txtactions {
   position: absolute;
@@ -119,7 +117,7 @@ SPLASH SCREEN
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #3778c2;;
+  background-color: #3778c2;
   color: white;
   padding: 0.5rem;
   height: calc(100vh * 0.06);
@@ -141,143 +139,143 @@ SPLASH SCREEN
 Categories
 */
 .page {
-    position: relative;
-    height: 100vh;
-    overflow-x: hidden;
+  position: relative;
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 .page-navbar-section {
-    display: flex;
-    flex-direction: column;
-    background-color: #3778c2;
-    color: white;
-    padding: 0.3rem;
-    height: 10vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #3778c2;
+  color: white;
+  padding: 0.3rem;
+  height: 10vh;
 }
 
 .page-navbar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
 
 .sign-out-btn {
-    align-self: flex-end;
-    margin-top: 0.2rem;
-    padding: 0.4rem;
-  }
-  
-  .page-mid-section {
-    height: 80vh;
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
-  
-  .card-item {
-    list-style: none;
-    border-bottom: 1px solid #cac6c6;
-    display: flex;
-    gap: 0.5rem;
-    padding: 0.5rem;
-    color: var(--color-gray);
-  }
-  
-  .card-img-box {
-    width: 4rem;
-    height: 4rem;
-  }
-  
-  .card-img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .card-info {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-  
-  .card-sum {
-    margin-left: auto;
-  }
-  
-  .add-container {
-    position: fixed;
-    bottom: 0;
-    margin-top: 9rem;
-    height: calc(100vh * 0.1);
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #5fb523;
-    padding: 0.5rem;
-  }
-  
-  .add-container button {
-    background: transparent;
-    width: 100%;
-    height: 100%;
-    padding: 0.3rem;
-    color: white;
-    border: solid 1px white;
-  }
-  
-  /*
+  align-self: flex-end;
+  margin-top: 0.2rem;
+  padding: 0.4rem;
+}
+
+.page-mid-section {
+  height: 80vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.card-item {
+  list-style: none;
+  border-bottom: 0.5px solid #cac6c6;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  color: #434b54;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+}
+
+.card-img-box {
+  width: 4rem;
+  height: 4rem;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card-sum {
+  margin-left: auto;
+}
+
+.add-container {
+  position: fixed;
+  bottom: 0;
+  margin-top: 9rem;
+  height: calc(100vh * 0.1);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5fb523;
+  padding: 0.5rem;
+}
+
+.add-container button {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  padding: 0.3rem;
+  color: white;
+  border: solid 1px white;
+}
+
+/*
   ADD CATEGORY
   */
-  
-  .save-btn {
-    width: 95%;
-    padding: 0.5rem;
-    background-color: #5fb523;
-    border-radius: 4px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .save-btn:hover {
-    cursor: pointer;
-  }
-  
-  .save-btn > * {
-    color: white;
-    background: transparent;
-    border: none;
-    outline: none;
-  }
-  
-  .add-container button > * {
-    color: white;
-  }
-  
-  /*
+
+.save-btn {
+  width: 95%;
+  padding: 0.5rem;
+  background-color: #5fb523;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.save-btn:hover {
+  cursor: pointer;
+}
+
+.save-btn > * {
+  color: white;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.add-container button > * {
+  color: white;
+}
+
+/*
   TRANSACTIONS
   */
-  
-  .detail-header {
-    text-align: center;
-    margin-top: 0.5rem;
-  }
-  
-  /*
+
+.detail-header {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/*
   ADD TRANSACTIONS
   */
-  
-  .trans-p {
-    text-align: center;
-    margin-bottom: 0.5rem;
-  }
-  
-  .trans-checks {
-    width: 95%;
-    margin: 0 auto 1rem;
-    padding: 0.5rem;
-  }
 
+.trans-p {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.trans-checks {
+  width: 95%;
+  margin: 0 auto 1rem;
+  padding: 0.5rem;
+}
