@@ -44,6 +44,7 @@ body {
   width: 100%;
   padding: 0.5rem;
   border: none;
+  color: #434b54;
 }
 
 .session-field-input {
@@ -69,6 +70,7 @@ SPLASH SCREEN
   justify-content: center;
   align-items: center;
   font-size: 1rem;
+  font-style: italic;
 }
 
 .splash__session-btns {
@@ -112,9 +114,7 @@ SPLASH SCREEN
   top: calc((100vh * 0.06) * 0.2);
   right: 0.5rem;
   background: transparent;
-  border: solid 1px white;
   padding: 0.1rem;
-  border-radius: 4px;
 }
 
 .txtactions > * {
