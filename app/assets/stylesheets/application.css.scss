@@ -87,33 +87,27 @@ SPLASH SCREEN
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
+}
+
+.splash__session-btns > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
   width: 100%;
   margin: 0.3rem;
   text-decoration: none;
   font-weight: bold;
   color: #434b54;
   background-color: white;
-  border-radius: 0.2rem;
+  border-radius: 0.5rem;
 }
 
-// .splash__session-btns > * {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   height: 50%;
-//   width: 100%;
-//   margin: 0.3rem;
-//   text-decoration: none;
-//   font-weight: bold;
-//   color: #434b54;
-//   background-color: white;
-//   border-radius: 0.5rem;
-// }
-
-.splash__session-btns:hover {
+.splash__session-btns > *:hover {
   background-color: #3778c2;
-
+  color:white;
 }
+
 .txtactions {
   position: absolute;
   top: calc((100vh * 0.06) * 0.2);
