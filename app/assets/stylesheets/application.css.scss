@@ -54,9 +54,9 @@ body {
   padding: 0.5rem;
 }
 
-.forgot-pwd {
+.forgot-pwd a {
   text-align: center;
-  color: rgba(176, 188, 176, 0.4) ;
+  color: rgba(176, 188, 176, 0.4);
 }
 
 
@@ -101,11 +101,6 @@ SPLASH SCREEN
   color: #434b54;
   background-color: white;
   border-radius: 0.5rem;
-}
-
-.splash__session-btns > *:hover {
-  background-color: #3778c2;
-  color:white;
 }
 
 .txtactions {
@@ -189,7 +184,7 @@ Categories
   display: flex;
   gap: 1rem;
   padding: 0.5rem;
-  color:#434b54;
+  color: #434b54;
   width: 95%;
   margin: 1rem auto;
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
@@ -270,6 +265,11 @@ Categories
 }
 
 .add-container button > * {
+  color: white;
+}
+
+.splash__session-btns > *:hover {
+  background-color: #3778c2;
   color: white;
 }
 
