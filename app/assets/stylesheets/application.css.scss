@@ -87,21 +87,28 @@ SPLASH SCREEN
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
-}
-
-.splash__session-btns {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50%;
   width: 100%;
   margin: 0.3rem;
   text-decoration: none;
   font-weight: bold;
   color: #434b54;
   background-color: white;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
 }
+
+// .splash__session-btns > * {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 50%;
+//   width: 100%;
+//   margin: 0.3rem;
+//   text-decoration: none;
+//   font-weight: bold;
+//   color: #434b54;
+//   background-color: white;
+//   border-radius: 0.5rem;
+// }
 
 .splash__session-btns:hover {
   background-color: #3778c2;
@@ -190,8 +197,7 @@ Categories
   padding: 0.5rem;
   color:#434b54;
   width: 95%;
-  margin: 0 auto;
-  margin-bottom: 1rem;
+  margin: 1rem auto;
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
