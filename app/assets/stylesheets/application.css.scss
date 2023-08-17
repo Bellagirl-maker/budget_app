@@ -48,10 +48,12 @@ body {
 }
 
 .session-field-input {
-  border: solid 1px rgba(176, 188, 176, 0.4);
+  border-bottom: solid 1px rgba(176, 188, 176, 0.4);
   width: 100%;
   padding: 0.5rem;
 }
+
+.forgot-pwd {text-align: center ;}
 
 /*
 SPLASH SCREEN
@@ -97,17 +99,9 @@ SPLASH SCREEN
 }
 
 .splash__session-btns:hover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50%;
-  width: 100%;
-  margin: 0.3rem;
-  text-decoration: none;
-  font-weight: bold;
   color: white;
   background-color: #3778c2;
-  border-radius: 0.5rem;
+
 }
 .txtactions {
   position: absolute;
@@ -187,12 +181,14 @@ Categories
 
 .card-item {
   list-style: none;
-  border-bottom: 0.5px solid #cac6c6;
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   padding: 0.5rem;
-  color: #434b54;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color:#434b54;
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-img-box {
@@ -215,6 +211,10 @@ Categories
 
 .card-sum {
   margin-left: auto;
+}
+
+.card-name .card-date {
+  color: #434b54;
 }
 
 .add-container {
@@ -275,7 +275,8 @@ Categories
 
 .detail-header {
   text-align: center;
-  margin-top: 0.5rem;
+  margin-top: 2.5rem;
+  color: black;
 }
 
 /*
